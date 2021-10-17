@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+
+    double A, B, C, X, Y, Z, VALOR1, VALOR2, TOTAL;
+    
+    scanf("%lf %lf %lf",&A,&B,&C);
+    scanf("%lf %lf %lf",&X,&Y,&Z);
+    
+    VALOR1 = (B * C);
+    VALOR2 = (Y * Z);
+    TOTAL = (VALOR1 + VALOR2);
+    
+    printf("VALOR A PAGAR: R$ %.2lf\n", TOTAL);
+    
+    return 0;
+}
